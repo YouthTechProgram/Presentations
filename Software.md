@@ -26,6 +26,10 @@ A markdown editor that allows you view what your markdown will look like as you 
 
 Download: [http://markdownpad.com/download.html](http://markdownpad.com/download.html)
 
+#### Notes
+
+- If prompted to install something more (Microsoft Visual C++ 2010), click yes.
+
 IDEs
 ----
 ### Netbeans
@@ -39,6 +43,15 @@ Download: [https://netbeans.org/downloads/](https://netbeans.org/downloads/)
 A paid and closed source IDE - but the owners were kind enough to give us an educational license. It's free for us. Let's use it. A lot.
 
 Download: [http://www.jetbrains.com/phpstorm/download/](http://www.jetbrains.com/phpstorm/download/)
+
+Misc
+----
+
+### GitHub Windows
+
+An interactive Git application.
+
+Download: [https://windows.github.com/](https://windows.github.com/)
 
 Server Administration
 ---------------------
