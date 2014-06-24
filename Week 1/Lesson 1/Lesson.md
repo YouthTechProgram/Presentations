@@ -205,6 +205,27 @@ _italicized_ -> `<em>italicized</em>`
 
 <del>i got deleted</del> -> `<del>i got deleted</del>`
 
+### Extras
+
+#### Embedding YouTube videos
+
+    <iframe class="youtube-player" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/VIDEO_ID" allowfullscreen frameborder="0"></iframe>
+
+#### Having fun with colors
+
+    <style>
+        background-color: black;
+        color: white;
+    </style>
+
+\* __Notice__: CSS can be saved in the same page and this should never be done in a real website. At the moment this only for this activity.
+
+    <p style="color: orange">im orange</p>
+
+Another way to do quick style changes is using the `style` attribute part for a specific tag.
+
+\* __Notice__: You should also avoid inline style changes whenever building a website. This is here for the sake of knowledge and this activity.
+
 ### Sample Time! ...Again
 
 Look at `index.html`
