@@ -69,3 +69,15 @@ HTML
             margin: 0 auto;
             width: 1000px;
         }
+
+## Loading CSS Externally
+
+### Our own style sheets
+
+We'll start using external files to load all of our CSS.
+
+    <link href="../assets/css/styles.css" rel="stylesheet" type="text/css">
+
+### Font Awesome
+
+Visit the [Font Awesome website](http://fortawesome.github.io/Font-Awesome/). We'll be using them a lot for icons.
