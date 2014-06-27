@@ -16,6 +16,11 @@ header {
     height: 115px;
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
 .social {
     font-family: 'Oswald', sans-serif;
     padding: 0 15px;
@@ -121,5 +126,40 @@ nav ul li.login a:hover, nav ul li.edition a:hover {
 }
 
 .landing_articles article {
+    background: url("http://img2.timeinc.net/health/images/gallery/eating/pineapple-pesticide-400x400.jpg");
+    background-size: cover;
+    color: black;
+    float: left;
+    height: 400px;
+    width: 33%;
+}
+
+.landing_articles article div {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+
+    height: 100%;
+}
+
+.landing_articles article div h3 {
+    color: orange;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.landing_articles article div h1 {
     color: white;
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.landing_articles article div p {
+    padding: 15px;
+    text-align: justify;
 }
