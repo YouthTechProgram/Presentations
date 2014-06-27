@@ -56,6 +56,16 @@ header nav ul li:first-child a:hover {
     }
 }
 
+.content > section {
+    float: left;
+    width: 75%;
+}
+
+.content > aside {
+    float: left;
+    width: 25%;
+}
+
 .content section h1 {
     font-size: 36px;
     font-family: sans-serif;
