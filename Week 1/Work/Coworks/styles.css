@@ -45,6 +45,23 @@ header nav ul li:first-child a:hover {
     color: green;
 }
 
+.content {
+    background-color: #EFEFEF;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 1000px;
