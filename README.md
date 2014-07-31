@@ -1,7 +1,7 @@
 Youth Tech 2014
 ===============
 
-In this repository you will be able to see all of the lesson plans for the upcoming weeks and what I plan on going over. If you feel comfortable enough with the current work, feel free to look ahead. I make no promises that I'll have lesson plans for too far ahead mainly because I'm lazy.
+In this repository you will be able to see all of the lesson plans for the upcoming weeks and what I plan on going over. If you feel comfortable enough with the current work, feel free to look ahead.
 
 ### Software
 
