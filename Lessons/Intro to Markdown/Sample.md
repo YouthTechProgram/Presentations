@@ -30,6 +30,23 @@ Quisque vel eros sed nisi blandit ornare quis ac est. Fusce aliquam arcu at eros
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et urna mauris. Cras a lorem nunc. Aenean tincidunt ultricies urna, at mollis dui vulputate vitae. Ut rhoncus, massa sit amet feugiat dapibus, risus libero aliquam arcu, lacinia hendrerit felis sem eu felis. Morbi egestas ullamcorper nulla, ac aliquet tortor sagittis sed.  
 Phasellus tincidunt libero vitae risus accumsan dapibus. Nulla laoreet volutpat augue. Aliquam vestibulum at mauris vitae cursus. Ut augue libero, elementum in dui sed, feugiat ultricies nisi. Vivamus gravida sed ipsum id congue. Sed congue dui tellus, eu mollis leo congue in. Ut vel nisi eu nibh congue malesuada. Praesent suscipit enim sed mauris lacinia, in malesuada risus suscipit. Integer nec varius tortor. Cras rutrum eu sem at pretium. Praesent id bibendum tortor, nec ultricies urna.
 
+Tables
+------
+
+Tables aren't officially supported in markdown but most parsers do support the following sytanx.
+
+### What's Rendered
+
+|                | 2013 | 2014 |
+| -------------- | ---- | ---- |
+| # Participants | 13   | 26   |
+
+### Markup
+
+    |                | 2013 | 2014 |
+    | -------------- | ---- | ---- |
+    | # Participants | 13   | 26   |
+
 Formatting
 ----------
 
