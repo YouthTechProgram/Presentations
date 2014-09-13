@@ -16,6 +16,9 @@ This document is written entirely in markdown. All future presentations and lect
 - [Mou](http://25.io/mou/)
     - OS X only
     - Free while in beta
+    
+#### Extras
+- [Quicklook Plugin](https://github.com/toland/qlmarkdown)
 
 ### Online
 
