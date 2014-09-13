@@ -9,6 +9,32 @@ As the quote says, you simply write your notes with a specific set of symbols an
 
 This document is written entirely in markdown. All future presentations and lecture notes will be written in markdown as well.
 
+## Software
+
+### Mac OS X
+
+- [Mou](http://25.io/mou/)
+    - OS X only
+    - Free while in beta
+
+### Online
+
+- [GitHub](https://github.com)
+    - Fully online
+    - Native apps to push/pull notes
+    - Keeps history of files
+- [SimpleNote](http://simplenote.com/)
+    - Markdown support only available online
+    - Has apps for iOS and Mac
+    - Save and sync between devices
+
+### Windows
+
+- [MarkdownPad](http://markdownpad.com/)
+    - Free to use
+    - If prompted to install something more (Microsoft Visual C++ 2010), click yes.
+
+
 ## Quick HTML Entity Reference
 
 Some symbols have different meanings in HTML, so to use these symbols you have to use the codes for them. I've listed a few common ones here.
