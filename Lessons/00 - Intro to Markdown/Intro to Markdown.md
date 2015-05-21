@@ -20,6 +20,12 @@ This document is written entirely in markdown. All future presentations and lect
 #### Extras
 - [Quicklook Plugin](https://github.com/toland/qlmarkdown)
 
+### Windows
+
+- [MarkdownPad](http://markdownpad.com/)
+    - Free to use
+    - If prompted to install something more (Microsoft Visual C++ 2010), click yes.
+
 ### Online
 
 - [Dillinger](http://dillinger.io/)
@@ -33,12 +39,6 @@ This document is written entirely in markdown. All future presentations and lect
     - Markdown support only available online
     - Has apps for iOS and Mac
     - Save and sync between devices
-
-### Windows
-
-- [MarkdownPad](http://markdownpad.com/)
-    - Free to use
-    - If prompted to install something more (Microsoft Visual C++ 2010), click yes.
 
 
 ## Quick HTML Entity Reference
