@@ -3,7 +3,9 @@ Introduction to HTML
 
 ## HTML in a nut shell
 
-    <tagname>content</tagname>
+HTML is like dialogue. You need to have a beginning quote and an end quote. An end tag is always denoted by have a `/` before the tagname, like so:
+
+    <tagname attribute="value">content</tagname>
 
 \* There are a few exceptions to this general rule:
 
@@ -14,6 +16,8 @@ Introduction to HTML
 ## Elements
 
 ### Headers
+
+Headers should **never** be used simply solely to make text bigger and bold. While visually that may be all they do, for assistive devices, headers have a greater significance and represent different sections of a website.
 
     <h1>Heading 1</h1>
     <h2>Heading 2</h2>
@@ -28,7 +32,9 @@ Introduction to HTML
 
 #### Line Breaks
 
-Line breaks allow you force a line break instead of having to start a new paragraph.
+Line breaks allow you force a line break instead of having to start a new paragraph. The reason you would want to do this is because by default, there is spacing between paragraphs but with line breaks, there will be no spacing since it's not a new paragraph.
+
+In general, line breaks could and should be avoided if possible; CSS can be used to achieve the same goals.
 
     <br>
 
@@ -50,35 +56,35 @@ Line breaks allow you force a line break instead of having to start a new paragr
 
     <a href="http://google.com" title="Visit google">This is a link</a>
 
+- **href** - The URL to an external website or another page
+- **title** - What will appear when you hover over a link
+    - While not *mandatory*, use it in order to aid assistive devices such as screen readers.
+
 ### Images
 
     <img src="http://placehold.it/300x100" alt="A placeholder image" width="300" height="100">
 
+- **src** - The URL to the image
+- **alt** - A literal description of the image or it's purpose. Imperative for assistive devices and should the image fail to load.
+- **width** & **height** - Self-explanatory
+
 ### Attributes
 
-Attributes are the things that go inside of the tag, they are __not__ the content. For future reference:
+Attributes are the things that go inside of the tag, they are **not** the content. For future reference:
 
-    <tag>content</tag>
+    <tag attribute="value">content</tag>
 
-All attributes will go inside of the actual tag (in between the < and the >) with a space separating each different attribute. Each attribute will typically have a value, and that value __must__ be surrounded by "".
+All attributes will go inside of the actual tag (in between the < and the >) with a space separating each different attribute. Each attribute will typically have a value, and that value **must** be surrounded by "".
 
 #### Common Attributes
 
-- class
-
-    A reference to a set of CSS rules (we'll get to this later)
+- **class** - A reference to a set of CSS rules
     
-- id
+- **id** - A reference for JavaScript to easily access this element
 
-    A reference for JavaScript to easily access this element (we'll get to this later)
+- **style** - Add some style rules quickly; this is to be avoided but it's nice to know.
 
-- style
-
-    Add some style rules quickly (we'll get to this today, hopefully)
-
-- title
-
-    Whatever will appear when you hover an element (e.g. an image, link, or button)
+- **title** - Whatever will appear when you hover an element (e.g. an image, link, or button)
 
 ## Formating
 
