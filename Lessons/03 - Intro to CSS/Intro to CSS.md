@@ -1,8 +1,6 @@
-# Lesson 2
+# CSS
 
-## What is CSS?
-
-Yesterday we saw some HTML to structure the page but it looked pretty ugly. This is where CSS comes in. It makes HTML look pretty.
+CSS is what makes HTML look pretty
 
 ## Syntax
 

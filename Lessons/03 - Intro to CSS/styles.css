@@ -1,0 +1,32 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    background-color: red;
+}
+
+header nav ul {
+    padding-left: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #AD4B95;
+}
+
+.main-column {
+    float: left;
+    width: 75%;
+}
+
+.sidebar {
+    float: left;
+    width: 25%;
+}
