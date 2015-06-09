@@ -24,5 +24,5 @@ Git makes collaboration easy where you can share code or datasets with your team
 1. Download the [windows client](https://windows.github.com/) and the [git command line tool](https://msysgit.github.io/); we will be using both so download and install both.
 2. Sign in with your Github account. Be sure to use "Github" and **not** "Github Enterprise"
 3. Set up your identity. This information that will be used to identify you each time you contribute something to the respository. Be sure to use the same email address you used on Github so your contributions will automatically be attributed to you.  
-![Identity](https://raw.githubusercontent.com/YouthTechProgram/Presentations/master/Lessons/00%20-%20Intro%20to%20Git/_resources/identity.png)
+![Identity](https://raw.githubusercontent.com/YouthTechProgram/Presentations/master/Lessons/01%20-%20Intro%20to%20Git/_resources/identity.png)
 4. Clone your team's repository from the Github client.
