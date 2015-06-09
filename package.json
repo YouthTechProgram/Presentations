@@ -1,0 +1,20 @@
+{
+  "name": "Youth-Tech-Presentations",
+  "description": "A repository where YTP presentations may be accessed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YouthTechProgram/Presentations.git"
+  },
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/YouthTechProgram/Presentations/issues"
+  },
+  "homepage": "https://github.com/YouthTechProgram/Presentations",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-sass": "^0.9.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.1.0"
+  }
+}
