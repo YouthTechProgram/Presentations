@@ -22,6 +22,8 @@ This document is written entirely in markdown. All future presentations and lect
 
 ### Windows
 
+- [Markdown Edit](http://mike-ward.net/markdownedit/)
+    - Free to use
 - [MarkdownPad](http://markdownpad.com/)
     - Free to use
     - If prompted to install something more (Microsoft Visual C++ 2010), click yes.
@@ -64,7 +66,3 @@ Some symbols have different meanings in HTML, so to use these symbols you have t
     ²  |  &sup2;
     ³  |  &sup3;
     °  |  &deg;
-
-## Sample Time
-
-Look at `Sample.md`

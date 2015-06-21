@@ -43,9 +43,11 @@ Tables aren't officially supported in markdown but most parsers do support the f
 
 ### Markup
 
-    |                | 2013 | 2014 |
-    | -------------- | ---- | ---- |
-    | # Participants | 13   | 26   |
+```
+|                | 2013 | 2014 |
+| -------------- | ---- | ---- |
+| # Participants | 13   | 26   |
+```
 
 Formatting
 ----------
@@ -78,7 +80,9 @@ _I am italicized_
 
 ---
 
-    ---
+```
+---
+```
 
 #### How to make lists
 
@@ -88,9 +92,11 @@ _I am italicized_
 2. Step 2
 3. Step 3
 
-        1. Step 1
-        2. Step 2
-        3. Step 3
+```
+1. Step 1
+2. Step 2
+3. Step 3
+```
 
 ##### Bullet Point
 
@@ -98,9 +104,11 @@ _I am italicized_
 + Item 2
 * Item 3
 
-        - Item 1
-        + Item 2
-        * Item 3
+```
+- Item 1
++ Item 2
+* Item 3
+```
 
 #### How to Quote
 
@@ -110,11 +118,21 @@ _I am italicized_
 > 
 > and another line
 
-    > This is a quote!
-    >
-    > > Hi!
-    > 
-    > and another line
+```
+> This is a quote!
+>
+> > Hi!
+> 
+> and another line
+```
+
+#### Code
+
+Either using ` ``` ` or indenting 4 spaces to show a block of code. For displaying things inline, use a single `` ` to achieve something like `this`.
+
+    ```
+    All of this will be displayed as-is. Typically used for code or displaying markdown
+    ```
 
 #### Escaping the asterick and underscore
 
@@ -140,3 +158,7 @@ Here is a list of all the characters you can backslash in markdown:
     -   minus sign (hyphen)
     .   dot
     !   exclamation mark
+
+## Specification
+
+There is the [CommonMark specification](http://spec.commonmark.org/0.20/) which has become the standard, except for the lack of tables support.
