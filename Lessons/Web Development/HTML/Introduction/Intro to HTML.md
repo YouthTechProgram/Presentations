@@ -77,7 +77,7 @@ In general, line breaks could and should be avoided if possible; CSS can be used
 ### Images
 
 ```html
-<img src="http://placehold.it/300x100" alt="A placeholder image" width="300" height="100">
+<img src="http://placehold.it/300x100" alt="A placeholder image" width="300" height="100" />
 ```
 
 - **src** - The URL to the image
