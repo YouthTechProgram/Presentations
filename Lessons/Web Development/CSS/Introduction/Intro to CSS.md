@@ -5,7 +5,7 @@ Styles can be applied to either generic HTML tags or specific classes. One of th
 ## Resources
 
 - [Bootstrap](http://getbootstrap.com/)
-- [Braclets](http://brackets.io/)
+- [Brackets](http://brackets.io/)
 - [FontAwesome](http://fortawesome.github.io/Font-Awesome/icons/)
 - [Zeal](http://zealdocs.org/)
 
